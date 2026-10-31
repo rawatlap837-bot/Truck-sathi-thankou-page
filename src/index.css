@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1d6cf2;
+  --color-brand-dark: #0b4fc4;
+  --color-navy: #0f2a5c;
+  --color-soft: #f2f7ff;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+}
+
+html, body, #root { min-height: 100%; }
+body { margin: 0; @apply font-sans text-slate-700 antialiased; }
